@@ -3,43 +3,43 @@ body {
   background-color: lightgray;
 }
 
-.accordian,
-.accordian-panel {
+.accordion,
+.accordion-panel {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.accordian-panel {
+.accordion-panel {
   padding: 10px;
   width: 20%;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-.accordian-start,
-.accordian-center,
-.accordian-end,
+.accordion-start,
+.accordion-center,
+.accordion-end,
 .span-label-value {
   font-weight: 800;
 }
 
-.accordian-start,
-.accordian-center {
+.accordion-start,
+.accordion-center {
   border-left: 1px solid black;
 }
 
-.accordian-center,
-.accordian-end {
+.accordion-center,
+.accordion-end {
   border-right: 1px solid black;
 }
 
-.accordian-text-body {
+.accordion-text-body {
   padding: 3%;
 }
 
-.accordian-text {
+.accordion-text {
   display: none;
   justify-content: center;
   align-items: center;
@@ -82,25 +82,25 @@ body {
 }
 
 @media screen and (max-width: 766px) {
-  .accordian {
+  .accordion {
     flex-direction: column;
   }
-  .accordian-panel {
+  .accordion-panel {
     width: 50vw;
     justify-content: flex-start;
     max-height: 20px;
   }
-  .accordian-start,
-  .accordian-center {
+  .accordion-start,
+  .accordion-center {
     border-top: 1px solid black;
     border-bottom: none;
   }
-  .accordian-start,
-  .accordian-end {
+  .accordion-start,
+  .accordion-end {
     border-right: 1px solid black;
     border-left: 1px solid black;
   }
-  .accordian-text-body {
+  .accordion-text-body {
     margin-left: 12%;
     margin-right: 12%;
   }
