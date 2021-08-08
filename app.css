@@ -81,6 +81,8 @@ body {
   display: none;
 }
 
+/* on mobile/smaller displays */
+
 @media screen and (max-width: 766px) {
   .accordion {
     flex-direction: column;
