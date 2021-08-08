@@ -1,2 +1,4 @@
 # responsive-accordion
-Responsive accordion component built with Javascript and CSS
+This is a simple responsive/mobile-first accordion component built with Javascript, CSS and HTML.
+
+Marcus McBride, 2021.
