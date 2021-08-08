@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
+    <title>SDG Responsive Component</title>
+  </head>
+  <body>
+    <div class="accordian">
+      <div
+        class="accordian-panel accordian-start active"
+        onClick="changePanel(event, 'fit-guide')"
+      >
+        FIT GUIDE
+        <p class="plus-minus-symbol">-</p>
+      </div>
+      <div
+        class="accordian-panel accordian-center"
+        onClick="changePanel(event, 'care-guide')"
+      >
+        CARE
+        <p class="plus-minus-symbol">+</p>
+      </div>
+      <div
+        class="accordian-panel accordian-end"
+        onClick="changePanel(event, 'materials-guide')"
+      >
+        MATERIALS
+        <p class="plus-minus-symbol">+</p>
+      </div>
+    </div>
+
+    <div class="accordian-text-body">
+      <div class="accordian-text active-panel" id="fit-guide">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eveniet
+        numquam error nemo a est accusantium placeat beatae, illo dolor nulla
+        quia quidem. Alias est animi esse itaque illo officiis! Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Veritatis nostrum
+        exercitationem eligendi asperiores, perferendis veniam dolorum beatae
+        quas qui delectus corrupti nulla blanditiis provident temporibus in
+        harum minus. Aut, deserunt. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Porro explicabo maxime ipsa. Cupiditate quae enim quia
+        numquam beatae autem ut magni est debitis itaque, quod iusto ad
+        architecto, sapiente reiciendis.
+      </div>
+      <div class="accordian-text" id="care-guide">
+        Flarby darby whoopty doo pringle tingle dabba doo Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Accusantium doloremque quas aliquid
+        commodi obcaecati totam natus dicta perferendis! Quae laborum, possimus
+        nesciunt delectus id minus nemo nostrum voluptate quia atque. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quia
+        mollitia, non, corporis fuga hic natus ullam voluptatibus sint, delectus
+        accusamus! Repudiandae reiciendis in eligendi ex pariatur fuga quam
+        neque!
+      </div>
+      <div class="accordian-text" id="materials-guide">
+        <div>
+          <div class="materials-panel">
+            <span class="materials-span">
+              <span class="materials-span-value">50%</span>
+              <span class="materials-span-label">cashmere</span>
+            </span>
+            <span class="materials-span">
+              <span class="materials-span-value">46%</span>
+              <span class="materials-span-label">wool</span>
+              <hr />
+            </span>
+            <span class="materials-span">
+              <span class="materials-span-value">4%</span>
+              <span class="materials-span-label">modal</span>
+            </span>
+          </div>
+          Here be 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+          eveniet numquam error nemo a est accusantium placeat beatae, illo
+          dolor nulla quia quidem. Alias est animi esse itaque illo officiis!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          nostrum exercitationem eligendi asperiores, perferendis veniam dolorum
+          beatae quas qui delectus corrupti nulla blanditiis provident
+          temporibus in harum minus. Aut, deserunt.
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
